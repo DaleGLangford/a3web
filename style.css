@@ -1,1 +1,214 @@
+/*
+Owner: Dana McKee
+Date: 11/11/2020
+From: https://www.w3schools.com/howto/howto_css_hero_image.asp, https://medium.com/@zerox/keep-that-damn-footer-at-the-bottom-c7a921cb9551, 
+, https://www.w3schools.com/cssref/pr_font_font-family.asp, https://www.w3schools.com/cssref/css3_pr_text-shadow.asp, https://www.w3schools.com/css/css_margin.asp
+*/
 
+/* Set the body font CSS for the entire webpage [Dana McKee]*/
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    height: 100%;
+    margin: 0;
+}
+
+/* Set up the title block CSS with large image and offset to not underlay vertical nav bar [Dana McKee]*/
+.titleblock {
+    background-image: url("images/dalesbigtrip.jpg");
+    background-size: cover;
+    background-position-y: 26%;
+    padding-bottom: 60px;
+    height: 250px;
+    margin-left:210px;
+}
+
+/* Set up Header CSS, large font with shawdow to stand out on page [Dana McKee]*/
+.titleheader {
+    padding: 0px;
+    text-align: center;
+    font-size: 5vw;
+    color: white;
+    text-shadow: 0 0 5px #525252;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+/* END: TITLE BLOCK CSS [Dana McKee] */ 
+
+/* START: SUBHEADER CSS [Dana McKee] */
+/* Set up Subeader CSS underneath Header with background colour to blend in but be ablet o stand out on its own [Dana McKee]*/
+.subheader {
+    text-align: center;
+    font-size: 1.75vw;
+    text-shadow: 0 0 5px #ffffff;
+    padding: 8px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding-top: 0px;
+    background-color: rgba(255, 255, 255, 0.274)
+}
+/* END: SUBHEADER CSS [Dana McKee] */  
+
+/* START: FOOTER CSS [Dana McKee] */
+/* Set up Footer text CSS [Dana McKee]*/
+.footertext {
+	font-style: italic;
+	text-align: center;
+	padding: 1px;
+}
+
+/* Set up Footer block CSS to be set to the bottom of the page and not underlay vertival side nav bar [Dana McKee]*/
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    letter-spacing: 0.11em;
+    margin-top: 100px;
+    background-color: rgb(190, 124, 76);
+    margin-left: 210px;
+    padding: 4px 0 4px 0;
+}
+
+/*  ***End Owner: Dana McKee ***  */
+
+/*
+Owner: Eric McNeill
+Date: 11/11/2020
+From: https://www.w3schools.com/css/css3_borders.asp, https://stackoverflow.com/questions/20391156/multiple-lines-of-text-next-to-image-css-html (applying styling to elements within classes),
+https://css-tricks.com/snippets/css/a-guide-to-flexbox (flexbox initial source), https://stackoverflow.com/questions/3802455/min-width-in-window-resizing (stopping elements from overlapping)
+*/
+
+/* Styling for h2 and h3 tags used in main content section (what is shared by both) */
+h2, h3 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/* Unique styling for h2 tag in content section */
+h2 {
+	font-size: 30px;
+    text-align: center;
+    margin: 0 0 20px 0;
+    background-color: #5ac47b;
+    border-radius: 25px;
+}
+
+/* Unique styling for h3 tag in content section */
+h3 {
+    font-size: 23px;
+}
+
+/* Parent div of all others for "sections" of content */
+.section {
+	width: auto;
+    margin: 20px 15px 20px 220px;
+	border: 5px solid rgb(190, 124, 76);
+	padding: 10px;
+    border-radius: 25px;
+    min-width: 500px;
+}
+
+/* Styling images within section divs */
+.section img {
+	border-radius: 25px;
+}
+
+/* Styling for p tags within sections divs */
+.section p {
+	font-size: 20px;
+}
+
+/* Styling for images used throughout the main content section */
+.bodyimage {
+    width: 350px;
+	margin-right: 20px;
+}
+
+/* Flex display to keep image and text contents nice and in-line with eachother */
+.divided {
+    display: flex;
+    margin-bottom: 30px;
+}
+/*  ***End Owner: Eric McNeill ***  */
+
+/*
+Owner: Dale Langford
+Date: 11/11/2020
+From:
+http://sgds-hive.com/#
+https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp
+https://www.w3schools.com/css/css_navbar_vertical.asp
+ */
+
+/* for general side bar coverage */
+.navBar {
+	display: block;
+	margin: 0px;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	height: 100%;
+	width: 200px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	overflow: auto;
+	background-color: #1a9641;
+}
+
+/* for logo */
+.logo {
+	padding: 0px;
+    align-content: centre;
+    width: 100%;
+    height: auto;
+}
+
+/* for general link format */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: transparent;
+}
+
+/* for page link buttons */
+li a {
+  display: block;
+  margin: 0;
+  color: #000;
+  padding:15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  text-align: left;
+}
+
+
+/* For active navigation window */
+li a.active {
+  background-color:#d7191c90;
+  border-radius: 3px;
+  font-size: 17px;
+  font-weight: bold;
+  color:#f5d349;
+}
+
+/* Change the link color on hover */
+li a:hover:not(.active) {
+  background-color:#91cf60;
+  border-radius: 3px;
+  color: black;
+  box-shadow:2px 2px #e0e0e050;
+  font-weight: bold;
+  font-size: 17px;
+  margin:0;
+  border: 0;
+}
+
+/*  ***End Owner: Dale Langford ***  */
