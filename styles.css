@@ -212,3 +212,15 @@ li a:hover:not(.active) {
 }
 
 /*  ***End Owner: Dale Langford ***  */
+
+/*
+Owner: Dale Langford
+Date: 11/11/2020
+ */
+
+/* CSS for contact us page */
+.Location {
+    height: 400px;
+    width: 600px;
+    position: center;
+  }
