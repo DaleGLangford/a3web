@@ -162,7 +162,7 @@ https://www.w3schools.com/css/css_navbar_vertical.asp
 /* for logo */
 .logo {
 	padding: 0px;
-    align-content: centre;
+    align-content: center;
     width: 100%;
     height: auto;
 }
@@ -212,3 +212,35 @@ li a:hover:not(.active) {
 }
 
 /*  ***End Owner: Dale Langford ***  */
+
+/*
+Owner: Dale Langford
+Date: 11/11/2020
+ */
+
+/* CSS for contact us page */
+.contact {
+	width: auto;
+    text-align: center;
+    border: none;
+    padding: none;
+}
+
+.officeH{
+	font-style:bold;
+	font-size:20px;
+	color:#009999;
+	margin-top: 5px;
+	margin-bottom:0px;
+}
+.officeP{
+    font-size:25px;
+    margin: 5px;	
+}
+
+.Location {
+    height: 400px;
+    width: 400px;
+    position: center;
+    margin-right: 20px;
+  }
