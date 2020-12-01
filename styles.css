@@ -153,6 +153,11 @@ h5 {
     margin-right: 20px;
 }
 
+.bodyimage4 {
+    width: 100%;
+    height: auto;
+}
+
 /* Flex display to keep image and text contents nice and in-line with eachother */
 .divided {
     display: flex;
@@ -239,7 +244,25 @@ li a:hover:not(.active) {
   border: 0;
 }
 
-/*  ***End Owner: Dale Langford ***  */
+/* For Media */
+@media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+/*  *** End Owner: Dale Langford ***  */
 
 /*
 Owner: Dale Langford
@@ -272,3 +295,5 @@ Date: 11/11/2020
     position: center;
     margin-right: 20px;
   }
+
+/* *** End Owner: Dale Langford *** */
