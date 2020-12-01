@@ -307,7 +307,7 @@ li a:hover:not(.active) {
 }
 
 /*
- * Just a quick hamburger
+ Span for navbar and x when checked
  */
 #navBar span
 {
@@ -338,10 +338,8 @@ li a:hover:not(.active) {
   transform-origin: 0% 100%;
 }
 
-/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
+/* Transform to x */
+
 #navBar input:checked ~ span
 {
   opacity: 1;
@@ -349,18 +347,12 @@ li a:hover:not(.active) {
   background: #b4240a;
 }
 
-/*
- * But let's hide the middle one.
- */
 #navBar input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/*
- * Ohyeah and the last one should go the other direction
- */
 #navBar input:checked ~ span:nth-last-child(2)
 {
   transform: rotate(-45deg) translate(0, -1px);
