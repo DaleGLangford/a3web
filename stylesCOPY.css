@@ -179,7 +179,7 @@ https://codepen.io/erikterwan/pen/EVzeRP
  */
 
 
-.navBar {
+.navBarBox {
 	display: block;
 	margin: 0px;
 	padding-top: 10px;
@@ -247,10 +247,9 @@ https://codepen.io/erikterwan/pen/EVzeRP
 #navBar input
 {
   display: block;
-  float: left;
   width: 40px;
   height: 32px;
-  /*position: absolute;*/
+  position: absolute;
   top: -7px;
   left: -5px;
   
