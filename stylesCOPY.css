@@ -269,7 +269,9 @@ li a:hover:not(.active) {
   transition: color 0.3s ease;
 }
 
-#menu a:active
+
+/*
+#navBar a:active
 {
   background-color:#d7191c90;
   border-radius: 3px;
@@ -278,12 +280,13 @@ li a:hover:not(.active) {
   color:#c29e0f;
 }
 
-#menu a:hover:not(.active)
+#navBar a:hover
 {
   color: tomato;
   font-weight: bold;
   font-size: 24px;  
 }
+*/
 
 #navBar input
 {
@@ -386,11 +389,33 @@ li a:hover:not(.active) {
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
+/*
 #menu li
 {
   padding: 10px 0;
   font-size: 22px;
 }
+*/
+
+li a.active {
+    background-color:#d7191c90;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: bold;
+    color:#f5d349;
+  }
+  
+  
+  li a:hover:not(.active) {
+    background-color:#91cf60;
+    border-radius: 3px;
+    color: black;
+    box-shadow:2px 2px #e0e0e050;
+    font-weight: bold;
+    font-size: 17px;
+    margin:0;
+    border: 0;
+  }
 
 /*
  * And let's slide it in from the left
