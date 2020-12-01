@@ -270,7 +270,7 @@ https://codepen.io/erikterwan/pen/EVzeRP
   margin-bottom: 5px;
   position: relative;
   
-  background: #cdcdcd;
+  background: #c40d0d;
   border-radius: 3px;
   
   z-index: 1;
@@ -300,7 +300,7 @@ https://codepen.io/erikterwan/pen/EVzeRP
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: #c40d0d;
 }
 
 /*
