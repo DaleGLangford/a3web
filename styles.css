@@ -246,24 +246,6 @@ li a:hover:not(.active) {
   border: 0;
 }
 
-/* For Media */
-@media screen and (max-width: 700px) {
-    .navBar {
-      width: 100%;
-      height: auto;
-      position: relative;
-    }
-    .navBar a {float: left;}
-    div.content {margin-left: 0;}
-  }
-  
-  @media screen and (max-width: 400px) {
-    .navBar a {
-      text-align: center;
-      float: none;
-    }
-  }
-
 /*  *** End Owner: Dale Langford ***  */
 
 /*
