@@ -226,23 +226,21 @@ https://codepen.io/erikterwan/pen/EVzeRP
   transition: color 0.3s ease;
 }
 
-
 #navBar a:active
 {
   background-color:#d7191c90;
   border-radius: 3px;
-  font-size: 24px;
+  font-size: 17px;
   font-weight: bold;
-  color:#c29e0f;
+  color:#f5d349;
 }
 
-#navBar a:hover
+#navBar a:hover:not(.active)
 {
   color: tomato;
   font-weight: bold;
-  font-size: 24px;  
+  font-size: 17px;  
 }
-
 
 #navBar input
 {
@@ -255,16 +253,14 @@ https://codepen.io/erikterwan/pen/EVzeRP
   
   cursor: pointer;
   
-  opacity: 0; 
-  /* hide this */
-  z-index: 2; 
-  /* and place it over the hamburger */
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
   
   -webkit-touch-callout: none;
 }
 
 /*
- Span for navbar and x when checked
+ * Just a quick hamburger
  */
 #navBar span
 {
@@ -272,8 +268,9 @@ https://codepen.io/erikterwan/pen/EVzeRP
   width: 33px;
   height: 4px;
   margin-bottom: 5px;
-  position: center;
-  background: #b4240a;
+  position: relative;
+  
+  background: #cdcdcd;
   border-radius: 3px;
   
   z-index: 1;
@@ -295,21 +292,29 @@ https://codepen.io/erikterwan/pen/EVzeRP
   transform-origin: 0% 100%;
 }
 
-/* Transform to x */
-
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
 #navBar input:checked ~ span
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #b4240a;
+  background: #232323;
 }
 
+/*
+ * But let's hide the middle one.
+ */
 #navBar input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
+/*
+ * Ohyeah and the last one should go the other direction
+ */
 #navBar input:checked ~ span:nth-last-child(2)
 {
   transform: rotate(-45deg) translate(0, -1px);
@@ -322,12 +327,12 @@ https://codepen.io/erikterwan/pen/EVzeRP
 #menu
 {
   position: absolute;
-  float: left;
   width: 300px;
-  margin: -100px 0 0 -60px;
-  padding-top: 100px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
   
-  background:transparent;
+  background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -338,14 +343,11 @@ https://codepen.io/erikterwan/pen/EVzeRP
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
-
 #menu li
 {
   padding: 10px 0;
   font-size: 22px;
 }
-
-
 
 /*
  * And let's slide it in from the left
