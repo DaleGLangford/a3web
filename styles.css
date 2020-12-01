@@ -156,6 +156,7 @@ h5 {
 .bodyimage4 {
     width: 100%;
     height: auto;
+    margin-right: 20px;
 }
 
 /* Flex display to keep image and text contents nice and in-line with eachother */
