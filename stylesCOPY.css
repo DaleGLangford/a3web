@@ -269,7 +269,7 @@ li a:hover:not(.active) {
   transition: color 0.3s ease;
 }
 
-#navBar a:active
+#menu a:active
 {
   background-color:#d7191c90;
   border-radius: 3px;
@@ -278,7 +278,7 @@ li a:hover:not(.active) {
   color:#c29e0f;
 }
 
-#navBar a:hover: not(.active)
+#menu a:hover: not(.active)
 {
   color: tomato;
   font-weight: bold;
