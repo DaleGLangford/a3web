@@ -246,7 +246,7 @@ li a:hover:not(.active) {
   margin:0;
   border: 0;
 }
-
+*/
 
 #navBar
 {
@@ -296,8 +296,10 @@ li a:hover:not(.active) {
   
   cursor: pointer;
   
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
+  opacity: 0; 
+  /* hide this */
+  z-index: 2; 
+  /* and place it over the hamburger */
   
   -webkit-touch-callout: none;
 }
@@ -311,8 +313,7 @@ li a:hover:not(.active) {
   width: 33px;
   height: 4px;
   margin-bottom: 5px;
-  position: relative;
-  
+  position: center;
   background: #1a9641;
   border-radius: 3px;
   
