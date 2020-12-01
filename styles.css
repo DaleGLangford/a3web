@@ -60,7 +60,7 @@ body {
 
 /* Set up Footer block CSS to be set to the bottom of the page and not underlay vertival side nav bar [Dana McKee]*/
 .footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
@@ -99,6 +99,24 @@ h3 {
     font-size: 23px;
 }
 
+h4 {
+    font-size: 50px;
+    text-align: center;
+    padding: 4px 0 4px 0;
+    margin-left:210px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #5ac47b;    
+}
+
+h5 {
+	font-size: 30px;
+    text-align: center;
+    margin: 0 0 20px 220px;
+    background-color: #5ac47b;
+    border-radius: 25px;
+}
+
 /* Parent div of all others for "sections" of content */
 .section {
 	width: auto;
@@ -123,6 +141,11 @@ h3 {
 .bodyimage {
     width: 350px;
 	margin-right: 20px;
+}
+
+.bodyimage2 {
+    width: 10vw;
+    margin-right: 20px;
 }
 
 /* Flex display to keep image and text contents nice and in-line with eachother */
@@ -162,7 +185,7 @@ https://www.w3schools.com/css/css_navbar_vertical.asp
 /* for logo */
 .logo {
 	padding: 0px;
-    align-content: centre;
+    align-content: center;
     width: 100%;
     height: auto;
 }
@@ -212,3 +235,35 @@ li a:hover:not(.active) {
 }
 
 /*  ***End Owner: Dale Langford ***  */
+
+/*
+Owner: Dale Langford
+Date: 11/11/2020
+ */
+
+/* CSS for contact us page */
+.contact {
+	width: auto;
+    text-align: center;
+    border: none;
+    padding: none;
+}
+
+.officeH{
+	font-style:bold;
+	font-size:20px;
+	color:#009999;
+	margin-top: 5px;
+	margin-bottom:0px;
+}
+.officeP{
+    font-size:25px;
+    margin: 5px;	
+}
+
+.Location {
+    height: 400px;
+    width: 400px;
+    position: center;
+    margin-right: 20px;
+  }
