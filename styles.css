@@ -99,6 +99,24 @@ h3 {
     font-size: 23px;
 }
 
+h4 {
+    font-size: 50px;
+    text-align: center;
+    padding: 4px 0 4px 0;
+    margin-left:210px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #5ac47b;    
+}
+
+h5 {
+	font-size: 30px;
+    text-align: center;
+    margin: 0 0 20px 220px;
+    background-color: #5ac47b;
+    border-radius: 25px;
+}
+
 /* Parent div of all others for "sections" of content */
 .section {
 	width: auto;
@@ -123,6 +141,11 @@ h3 {
 .bodyimage {
     width: 350px;
 	margin-right: 20px;
+}
+
+.bodyimage2 {
+    width: 10vw;
+    margin-right: 20px;
 }
 
 /* Flex display to keep image and text contents nice and in-line with eachother */
