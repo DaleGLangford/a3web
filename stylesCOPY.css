@@ -275,7 +275,7 @@ li a:hover:not(.active) {
   border-radius: 3px;
   font-size: 17px;
   font-weight: bold;
-  color:#f5d349;
+  color:#c29e0f;
 }
 
 #navBar a:hover:not(.active)
@@ -314,7 +314,7 @@ li a:hover:not(.active) {
   height: 4px;
   margin-bottom: 5px;
   position: center;
-  background: #1a9641;
+  background: #b4240a;
   border-radius: 3px;
   
   z-index: 1;
@@ -344,7 +344,7 @@ li a:hover:not(.active) {
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: #b4240a;
 }
 
 /*
