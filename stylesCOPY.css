@@ -372,11 +372,10 @@ li a:hover:not(.active) {
 {
   position: absolute;
   width: 300px;
-  margin: -100px 0 0 -50px;
-  padding: 50px;
-  padding-top: 125px;
+  margin: -100px 0 0 -60px;
+  padding-top: 100px;
   
-  background: #ededed;
+  background:transparent;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
