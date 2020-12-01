@@ -249,12 +249,13 @@ li a:hover:not(.active) {
 */
 
 
+
 /*********************************************************************/
 
 #menuToggle
 {
   display: block;
-  align-content: center;
+  position: relative;
   top: 50px;
   left: 50px;
   
@@ -364,11 +365,11 @@ li a:hover:not(.active) {
 {
   position: absolute;
   width: 300px;
-  margin: -100px 0 0 -60px;
+  margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
   
-  background:transparent;
+  background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -396,7 +397,7 @@ li a:hover:not(.active) {
 /*  *** End Owner: Dale Langford ***  */
 
 
-/*******************************************************************************/
+
 
 
 /*
