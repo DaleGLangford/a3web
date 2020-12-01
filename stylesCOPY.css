@@ -275,10 +275,10 @@ li a:hover:not(.active) {
   border-radius: 3px;
   font-size: 17px;
   font-weight: bold;
-  color:#f5d349;
+  color:#c29e0f;
 }
 
-#navBar a:hover:not(.active)
+#navBar a:hover: not(.active)
 {
   color: tomato;
   font-weight: bold;
@@ -296,8 +296,10 @@ li a:hover:not(.active) {
   
   cursor: pointer;
   
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
+  opacity: 0; 
+  /* hide this */
+  z-index: 2; 
+  /* and place it over the hamburger */
   
   -webkit-touch-callout: none;
 }
@@ -311,9 +313,8 @@ li a:hover:not(.active) {
   width: 33px;
   height: 4px;
   margin-bottom: 5px;
-  position: relative;
-  
-  background: #cdcdcd;
+  position: center;
+  background: #b4240a;
   border-radius: 3px;
   
   z-index: 1;
@@ -343,7 +344,7 @@ li a:hover:not(.active) {
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: #b4240a;
 }
 
 /*
@@ -371,11 +372,10 @@ li a:hover:not(.active) {
 {
   position: absolute;
   width: 300px;
-  margin: -100px 0 0 -50px;
-  padding: 50px;
-  padding-top: 125px;
+  margin: -100px 0 0 -60px;
+  padding-top: 100px;
   
-  background: #ededed;
+  background:transparent;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -401,6 +401,7 @@ li a:hover:not(.active) {
 }
 
 /*********************************************************************/
+
 
 /*  *** End Owner: Dale Langford ***  */
 
