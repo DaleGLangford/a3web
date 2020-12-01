@@ -373,6 +373,7 @@ li a:hover:not(.active) {
 #menu
 {
   position: absolute;
+  float: left;
   width: 300px;
   margin: -100px 0 0 -60px;
   padding-top: 100px;
