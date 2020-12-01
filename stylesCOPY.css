@@ -366,8 +366,7 @@ li a:hover:not(.active) {
   position: absolute;
   width: 300px;
   margin: -100px 0 0 -60px;
-  padding: 50px;
-  padding-top: 125px;
+  padding-top: 100px;
   
   background:transparent;
   list-style-type: none;
