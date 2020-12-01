@@ -149,8 +149,9 @@ h5 {
 }
 
 .bodyimage3 {
-    width: 20vw;
+    width: 30vw;
     margin-right: 20px;
+    vertical-align: middle;
 }
 
 .bodyimage4 {
