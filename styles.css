@@ -246,17 +246,17 @@ li a:hover:not(.active) {
 
 /* For Media */
 @media screen and (max-width: 700px) {
-    .sidebar {
+    .navBar {
       width: 100%;
       height: auto;
       position: relative;
     }
-    .sidebar a {float: left;}
+    .navBar a {float: left;}
     div.content {margin-left: 0;}
   }
   
   @media screen and (max-width: 400px) {
-    .sidebar a {
+    .navBar a {
       text-align: center;
       float: none;
     }
