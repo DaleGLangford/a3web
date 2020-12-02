@@ -274,6 +274,10 @@ li a:hover:not(.active) {
   color: #f1f1f1;
 }
 
+.sidebar a:active {
+  color: #388f0c;
+}
+
 .sidebar .closebtn {
   position: absolute;
   top: 0;
@@ -292,23 +296,15 @@ li a:hover:not(.active) {
 }
 
 .openbtn:hover {
-  background-color: #444;
+  background-color: rgb(21, 82, 5);
 }
 
-.openbtn:active {
-  color: rgb(37, 165, 41);
-}
 
 #main {
   transition: margin-left .5s;
   padding: 16px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
-}
 
 
 /*********************************************************************/
