@@ -302,6 +302,7 @@ li a:hover:not(.active) {
 
 #main {
   transition: margin-left .5s;
+  padding-left:85;
   padding: 16px;
 }
 
