@@ -295,6 +295,10 @@ li a:hover:not(.active) {
   background-color: #444;
 }
 
+.openbtn:active {
+  color: rgb(37, 165, 41);
+}
+
 #main {
   transition: margin-left .5s;
   padding: 16px;
