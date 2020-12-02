@@ -289,8 +289,8 @@ li a:hover:not(.active) {
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: #111;
-  color: white;
+  background-color: rgb(145, 8, 8);
+  color: rgb(230, 230, 12);
   border: none;
   align-content: center;
 }
