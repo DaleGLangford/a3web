@@ -178,7 +178,7 @@ https://www.w3schools.com/css/css_navbar_vertical.asp
 https://codepen.io/erikterwan/pen/EVzeRP
  */
 
- 
+
 /* for general side bar coverage */
 .navBar {
 	display: block;
@@ -186,8 +186,8 @@ https://codepen.io/erikterwan/pen/EVzeRP
 	padding-top: 10px;
 	padding-left: 5px;
 	padding-right: 5px;
-	padding-bottom: 10px;
-	height: 100%;
+	padding-bottom: 50px;
+	height: 250px;
 	width: 200px;
 	position: fixed;
 	left: 0;
