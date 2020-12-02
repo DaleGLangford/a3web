@@ -288,6 +288,7 @@ li a:hover:not(.active) {
   background-color: #111;
   color: white;
   border: none;
+  align-content: center;
 }
 
 .openbtn:hover {
