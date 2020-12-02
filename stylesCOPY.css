@@ -271,11 +271,11 @@ li a:hover:not(.active) {
 }
 
 .sidebar a:hover {
-  color: #f1f1f1;
+  color: rgb(230, 230, 12);
 }
 
 .sidebar a:active {
-  color: #388f0c;
+  color: #ee0a0a;
 }
 
 .sidebar .closebtn {
