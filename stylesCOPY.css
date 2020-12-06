@@ -196,7 +196,7 @@ https://stackoverflow.com/questions/55128005/how-to-hide-a-specific-div-element-
 	padding-bottom: 50px;
 	height: 250px;
 	width: 200px;
-	position: fixed;
+	position: absolute;
 	left: 0;
 	top: 0;
 	bottom: 0;
