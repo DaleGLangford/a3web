@@ -93,10 +93,11 @@ h2, h3 {
 /* Unique styling for h2 tag in content section */
 h2 {
 	font-size: 30px;
-    text-align: center;
-    margin: 0 0 20px 0;
-    background-color: #5ac47b;
-    border-radius: 25px;
+  text-align: center;
+  margin: 0 0 20px 0;
+  background-color: #5ac47b;
+  border-radius: 25px;
+  padding: 5px;
 }
 
 /* Unique styling for h3 tag in content section */
