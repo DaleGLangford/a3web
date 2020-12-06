@@ -175,37 +175,35 @@ From:
 http://sgds-hive.com/#
 https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp
 https://www.w3schools.com/css/css_navbar_vertical.asp
-https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp
  */
 
-
 /* for general side bar coverage */
-
 .navBar {
 	display: block;
 	margin: 0px;
 	padding-top: 10px;
 	padding-left: 5px;
 	padding-right: 5px;
-	padding-bottom: 50px;
-	height: 250px;
+	padding-bottom: 10px;
+	height: 100%;
 	width: 200px;
 	position: fixed;
 	left: 0;
 	top: 0;
 	bottom: 0;
+	overflow: auto;
 	background-color: #1a9641;
 }
 
-
+/* for logo */
 .logo {
 	padding: 0px;
     align-content: center;
     width: 100%;
     height: auto;
 }
-/*
 
+/* for general link format */
 ul {
   list-style-type: none;
   margin: 0;
@@ -214,7 +212,7 @@ ul {
   background-color: transparent;
 }
 
-
+/* for page link buttons */
 li a {
   display: block;
   margin: 0;
@@ -228,6 +226,7 @@ li a {
 }
 
 
+/* For active navigation window */
 li a.active {
   background-color:#d7191c90;
   border-radius: 3px;
@@ -236,7 +235,7 @@ li a.active {
   color:#f5d349;
 }
 
-
+/* Change the link color on hover */
 li a:hover:not(.active) {
   background-color:#91cf60;
   border-radius: 3px;
@@ -246,77 +245,9 @@ li a:hover:not(.active) {
   font-size: 17px;
   margin:0;
   border: 0;
-}*/
-
-.sidebar {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #1a9641;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
 }
-
-.sidebar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: black;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidebar a:hover {
-  color: rgb(238, 238, 41);
-}
-
-.sidebar a:active {
-  color: rgb(208, 26, 26);
-}
-
-.sidebar .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-.openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: rgb(145, 8, 8);
-  color: rgb(230, 230, 12);
-  border: none;
-  align-content: center;
-}
-
-.openbtn:hover {
-  background-color: rgb(80, 11, 11);
-}
-
-
-#main {
-  transition: margin-left .5s;
-  padding-left:85;
-  padding: 16px;
-  padding-left:85px;
-}
-
-
-
-/*********************************************************************/
-
 
 /*  *** End Owner: Dale Langford ***  */
-
-
-
-
 
 /*
 Owner: Dale Langford
