@@ -125,11 +125,10 @@ h5 {
 /* Parent div of all others for "sections" of content */
 .section {
 	width: auto;
-    margin: 20px 15px 20px 15px;
+  margin: 20px 15px 20px 15px;
 	border: 5px solid rgb(190, 124, 76);
 	padding: 10px;
-    border-radius: 25px;
-    min-width: 500px;
+  border-radius: 25px;
 }
 
 /* Styling images within section divs */
