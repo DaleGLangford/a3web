@@ -259,7 +259,6 @@ https://stackoverflow.com/questions/55128005/how-to-hide-a-specific-div-element-
 
 .main {
   transition: margin-left .5s;
-  padding-left:85;
   padding: 16px;
   padding-left:85px;
 }
