@@ -152,25 +152,15 @@ h5 {
 }
 
 /* Styling for images used throughout the main content section */
-.bodyimage {
-    width: 350px;
-	margin-right: 20px;
-}
 
 .bodyimage2 {
-    width: 10vw;
-    margin-right: 20px;
-}
-
-.bodyimage3 {
-    width: 30vw;
+    width: 15vw;
     margin-right: 20px;
     vertical-align: middle;
 }
 
-.bodyimage4 {
-    max-width: 100%;
-    height: auto;
+.bodyimage3 {
+    width: 30vw;
     margin-right: 20px;
     vertical-align: middle;
 }
