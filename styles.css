@@ -305,7 +305,6 @@ Date: 11/11/2020
 	width: auto;
     text-align: center;
     border: none;
-    padding: none;
 }
 
 .officeH{
@@ -322,7 +321,6 @@ Date: 11/11/2020
 
 .Location {
     width: 35vw;
-    position: center;
     margin-right: 20px;
   }
 
