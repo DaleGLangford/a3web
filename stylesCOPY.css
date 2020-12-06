@@ -246,7 +246,7 @@ https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: rgb(26, 145, 8);
+  background-color: rgb(145, 8, 8);
   color: rgb(230, 230, 12);
   border: none;
   align-content: center;
@@ -272,7 +272,14 @@ https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp
 
 @media screen and (max-width: 600px) {
   .navBar {
-    width: 30px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #main {
+    padding:120;
+    padding-left: 10;
   }
 }
 
