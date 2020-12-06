@@ -267,7 +267,7 @@ https://stackoverflow.com/questions/55128005/how-to-hide-a-specific-div-element-
   background-color: rgb(80, 11, 11);
 }
 
-.main {
+#main {
   transition: margin-left .5s;
   padding: 16px;
   padding-left:85px;
