@@ -100,6 +100,7 @@ h2 {
 }
 
 /* Unique styling for h3 tag in content section */
+/* Are we using these?? DELETE IF NOT */
 h3 {
     font-size: 23px;
 }
@@ -130,6 +131,15 @@ h5 {
 	padding: 10px;
   border-radius: 25px;
 }
+
+/* Parent div of all others for "sections" of content */
+.section2 {
+	width: auto;
+  margin: 20px 15px 20px 15px;
+	padding: 10px;
+  border-radius: 25px;
+}
+
 
 /* Styling images within section divs */
 .section img {
