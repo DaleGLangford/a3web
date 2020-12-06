@@ -82,7 +82,7 @@ body {
 Owner: Eric McNeill
 Date: 11/11/2020
 From: https://www.w3schools.com/css/css3_borders.asp, https://stackoverflow.com/questions/20391156/multiple-lines-of-text-next-to-image-css-html (applying styling to elements within classes),
-https://css-tricks.com/snippets/css/a-guide-to-flexbox (flexbox initial source), https://stackoverflow.com/questions/3802455/min-width-in-window-resizing (stopping elements from overlapping)
+https://css-tricks.com/snippets/css/a-guide-to-flexbox (flexbox initial source)
 */
 
 /* Styling for h2 and h3 tags used in main content section (what is shared by both) */
@@ -93,10 +93,11 @@ h2, h3 {
 /* Unique styling for h2 tag in content section */
 h2 {
 	font-size: 30px;
-    text-align: center;
-    margin: 0 0 20px 0;
-    background-color: #5ac47b;
-    border-radius: 25px;
+  text-align: center;
+  margin: 0 0 20px 0;
+  background-color: #5ac47b;
+  border-radius: 25px;
+  padding: 5px;
 }
 
 /* Unique styling for h3 tag in content section */
@@ -106,21 +107,11 @@ h3 {
 }
 
 h4 {
-    font-size: 50px;
-    text-align: center;
-    padding: 4px 0 4px 0;
-    margin-left:210px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    background-color: #5ac47b;    
-}
-
-h5 {
-	font-size: 30px;
-    text-align: center;
-    margin: 0 0 20px 220px;
-    background-color: #5ac47b;
-    border-radius: 25px;
+  font-size: 30px;
+  margin: 0 0 20px 0;
+  background-color: #5ac47b;
+  border-radius: 25px;
+  padding-left: 10px;
 }
 
 /* Parent div of all others for "sections" of content */
@@ -152,25 +143,15 @@ h5 {
 }
 
 /* Styling for images used throughout the main content section */
-.bodyimage {
-    width: 350px;
-	margin-right: 20px;
-}
 
 .bodyimage2 {
-    width: 10vw;
-    margin-right: 20px;
-}
-
-.bodyimage3 {
-    width: 30vw;
+    width: 15vw;
     margin-right: 20px;
     vertical-align: middle;
 }
 
-.bodyimage4 {
-    max-width: 100%;
-    height: auto;
+.bodyimage3 {
+    width: 30vw;
     margin-right: 20px;
     vertical-align: middle;
 }
