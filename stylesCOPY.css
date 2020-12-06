@@ -22,6 +22,12 @@ body {
     margin-left:210px;
 }
 
+@media screen and (max-width: 600px) {
+  .titleblock {
+    margin-left:50px;
+  }
+}
+
 /* Set up Header CSS, large font with shawdow to stand out on page [Dana McKee]*/
 .titleheader {
     padding: 0px;
