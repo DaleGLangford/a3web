@@ -22,12 +22,6 @@ body {
     margin-left:210px;
 }
 
-@media screen and (max-width: 600px) {
-  .titleblock {
-    margin-left:50px;
-  }
-}
-
 /* Set up Header CSS, large font with shawdow to stand out on page [Dana McKee]*/
 .titleheader {
     padding: 0px;
@@ -73,6 +67,7 @@ body {
     letter-spacing: 0.11em;
     margin-top: 100px;
     background-color: rgb(190, 124, 76);
+    margin-left: 210px;
     padding: 4px 0 4px 0;
 }
 
@@ -125,10 +120,11 @@ h5 {
 /* Parent div of all others for "sections" of content */
 .section {
 	width: auto;
-  margin: 20px 15px 20px 15px;
+    margin: 20px 15px 20px 220px;
 	border: 5px solid rgb(190, 124, 76);
 	padding: 10px;
-  border-radius: 25px;
+    border-radius: 25px;
+    min-width: 500px;
 }
 
 /* Styling images within section divs */
@@ -174,35 +170,32 @@ h5 {
 
 /*
 Owner: Dale Langford
-Date: 12/06/2020
+Date: 11/11/2020
 From:
 http://sgds-hive.com/#
 https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp
 https://www.w3schools.com/css/css_navbar_vertical.asp
-https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp
-https://stackoverflow.com/questions/55128005/how-to-hide-a-specific-div-element-when-we-reduce-the-zoom-size-of-a-browser
  */
 
-
 /* for general side bar coverage */
-
 .navBar {
 	display: block;
 	margin: 0px;
 	padding-top: 10px;
 	padding-left: 5px;
 	padding-right: 5px;
-	padding-bottom: 50px;
-	height: 250px;
+	padding-bottom: 10px;
+	height: 100%;
 	width: 200px;
-	position: absolute;
+	position: fixed;
 	left: 0;
 	top: 0;
 	bottom: 0;
+	overflow: auto;
 	background-color: #1a9641;
 }
 
-
+/* for logo */
 .logo {
 	padding: 0px;
     align-content: center;
@@ -210,88 +203,51 @@ https://stackoverflow.com/questions/55128005/how-to-hide-a-specific-div-element-
     height: auto;
 }
 
-.sidebar {
-  height: 450px;
-  width: 0;
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #1a9641;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+/* for general link format */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: transparent;
 }
 
-.sidebar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: black;
+/* for page link buttons */
+li a {
   display: block;
-  transition: 0.3s;
-}
-
-.sidebar a:hover {
-  color: rgb(238, 238, 41);
-}
-
-.sidebar a:active {
-  color: rgb(208, 26, 26);
-}
-
-.sidebar .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-.openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: rgb(145, 8, 8);
-  color: rgb(230, 230, 12);
-  border: none;
-  align-content: center;
-}
-
-.openbtn:hover {
-  background-color: rgb(80, 11, 11);
-}
-
-.main {
-  transition: margin-left .5s;
-  padding: 16px;
-  padding-left:85px;
-}
-
-@media screen and (max-width: 600px) {
-  .logo {
-    display: none
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .navBar {
-    width: 50px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .main {
-    padding:120px;
-    padding-left: 10px;
-  }
+  margin: 0;
+  color: #000;
+  padding:15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  text-align: left;
 }
 
 
-/*********************************************************************/
+/* For active navigation window */
+li a.active {
+  background-color:#d7191c90;
+  border-radius: 3px;
+  font-size: 17px;
+  font-weight: bold;
+  color:#f5d349;
+}
 
+/* Change the link color on hover */
+li a:hover:not(.active) {
+  background-color:#91cf60;
+  border-radius: 3px;
+  color: black;
+  box-shadow:2px 2px #e0e0e050;
+  font-weight: bold;
+  font-size: 17px;
+  margin:0;
+  border: 0;
+}
 
 /*  *** End Owner: Dale Langford ***  */
-
 
 /*
 Owner: Dale Langford
@@ -323,18 +279,5 @@ Date: 11/11/2020
     position: center;
     margin-right: 20px;
   }
-
-/* *** End Owner: Dale Langford *** */
-
-/*
-Owner: Dale Langford
-Date: 12/06/2020
- */
-
-/* CSS for About Us page */
-.AboutUs {
-  font-size: 20px;
-  overflow: hidden;
-}
 
 /* *** End Owner: Dale Langford *** */
