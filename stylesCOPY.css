@@ -315,9 +315,6 @@ li a:hover:not(.active) {
 /*  *** End Owner: Dale Langford ***  */
 
 
-
-
-
 /*
 Owner: Dale Langford
 Date: 11/11/2020
@@ -348,5 +345,18 @@ Date: 11/11/2020
     position: center;
     margin-right: 20px;
   }
+
+/* *** End Owner: Dale Langford *** */
+
+/*
+Owner: Dale Langford
+Date: 11/11/2020
+ */
+
+/* CSS for About Us page */
+.AboutUs {
+  font-size: 20px;
+  overflow: hidden;
+}
 
 /* *** End Owner: Dale Langford *** */
