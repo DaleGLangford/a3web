@@ -212,7 +212,7 @@ https://stackoverflow.com/questions/55128005/how-to-hide-a-specific-div-element-
 }
 
 .sidebar {
-  height: 100%;
+  height: 450px;
   width: 0;
   position: absolute;
   z-index: 1;
