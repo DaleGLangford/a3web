@@ -204,6 +204,19 @@ https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp
     width: 100%;
     height: auto;
 }
+
+@media screen and (max-width: 600px) {
+  .logo {
+    display: none
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navBar {
+    width: 30px;
+  }
+}
+
 /*
 
 ul {
