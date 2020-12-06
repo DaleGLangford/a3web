@@ -276,7 +276,7 @@ https://stackoverflow.com/questions/55128005/how-to-hide-a-specific-div-element-
 }
 
 @media screen and (max-width: 600px) {
-  .main {
+  #main {
     padding:120px;
     padding-left: 10px;
   }
