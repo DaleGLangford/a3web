@@ -176,6 +176,7 @@ http://sgds-hive.com/#
 https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp
 https://www.w3schools.com/css/css_navbar_vertical.asp
 https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp
+https://stackoverflow.com/questions/55128005/how-to-hide-a-specific-div-element-when-we-reduce-the-zoom-size-of-a-browser
  */
 
 
@@ -255,7 +256,6 @@ https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp
 .openbtn:hover {
   background-color: rgb(80, 11, 11);
 }
-
 
 #main {
   transition: margin-left .5s;
