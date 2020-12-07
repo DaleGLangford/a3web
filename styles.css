@@ -7,7 +7,7 @@ From: https://www.w3schools.com/howto/howto_css_hero_image.asp, https://medium.c
 
 /* Set the body font CSS for the entire webpage [Dana McKee]*/
 body {
-    font-family: "Merriweather", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     height: 100%;
     margin: 0;
 }
@@ -87,7 +87,7 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox (flexbox initial source)
 
 /* Styling for h2 and h3 tags used in main content section (what is shared by both) */
 h2, h3 {
-    font-family: "Merriweather", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 /* Unique styling for h2 tag in content section */
