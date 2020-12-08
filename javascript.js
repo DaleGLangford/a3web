@@ -1,6 +1,6 @@
-// Accordian JS for About Us page
+// Accordian JS for About Us page and Nav Bar
 //Owner: Dale Langford
-//Date: 11/11/2020
+//Date: 12/06/2020
 //From:
 //https://jqueryui.com/accordion/
 
